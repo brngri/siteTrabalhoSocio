@@ -68,53 +68,10 @@ html {
     justify-content: space-around;
 }
 
-.Botao {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3em;
-    font-weight: 700;
-    background-color: #c0000c;
-    padding: 10px 40px;
-    /*cima=baixo direita=esquerda*/
-    border: 2px solid #fff;
-    border-radius: 25px;
-}
 
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
-}
-
-/* Cartões */
-.Card {
-    margin-top: 25px;
-    width: 338px;
-    /* imagens devem ter essa largura e pelo menos a metade da altura*/
-    height: 520px;
-    background-color: #e8e8e8;
-    border: 1px solid #a1a1a1;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.Card img {
-    border-radius: 25px 25px 0px 0px;
-}
-
-.Card h3 {
-    margin-top: 15px;
-}
-
-.Card p {
-    text-align: left;
-    color: #434343;
-    padding: 10px 30px 50px 30px;
-}
-
-.Card a {
-    padding: 10px 100px;
-    /*cima-baixo direita-esquerda*/
-    border: 0;
 }
 
 
@@ -174,7 +131,7 @@ nav ul li a {
 }
 
 /* Destaque */
-main {
+main{
     height: 75vh;
     /* vh =  porcentagem de tela, independente do dispositivo*/
     background: url(img/banner.png);
@@ -189,7 +146,6 @@ main {
     justify-content: center;
     text-align: center;
 }
-
 
 main h1 {
     font-size: 2.5em;
@@ -238,6 +194,44 @@ main h2 {
     position: static;
     text-align: center;
 }
+
+/*sobreBiblio*/
+.sobreBiblio h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobreBiblio h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.sobreBiblio h2 {
+    margin: 50px 2px;
+    text-align: center;
+
+}
+
+.sobreBiblio h3 {
+    margin: 10px 2px;
+
+}
+
+.sobreBiblio ul li{
+    list-style: none;
+}
+
+.sobreBiblio ul li a{
+    text-decoration: none;
+}
+
+.sobreBiblio p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
 
 /* Wireframe */
 #wireframe {
@@ -422,7 +416,8 @@ footer {
         height: auto;
         background-color: transparent;
         margin-top: 50px;
-        margin-right: 350px;
+        margin-right: 200px;
+
 
     }
 
