@@ -79,6 +79,10 @@ html {
     color: #fff;
 }
 
+.Botao:hover {
+    background-color: #0056b3;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
